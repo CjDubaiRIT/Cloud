@@ -1,0 +1,41 @@
+import turtle
+#the color of the pen can be set by the user using the variable c
+#c=input("colour? ")
+def hexagon():
+    turtle.speed(0)
+    turtle.pencolor("pink")
+    turtle.forward(50)
+    turtle.left(60)
+    turtle.forward(50)
+    turtle.left(60)
+    turtle.forward(50)
+    turtle.left(60)
+    turtle.forward(50)
+    turtle.left(60)
+    turtle.forward(50)
+    turtle.left(60)
+    turtle.forward(50)
+    turtle.left(60)
+    turtle.done()
+
+def square():
+    turtle.speed(0)
+    turtle.pencolor("pink")
+    turtle.forward(90)
+    turtle.left(90)
+    turtle.forward(90)
+    turtle.left(90)
+    turtle.forward(90)
+    turtle.left(90)
+    turtle.forward(90)
+    turtle.left(90)
+    turtle.done()
+
+def circle():
+    turtle.speed(0)
+    turtle.pencolor("pink")
+    turtle.circle(90)
+    turtle.done()
+#hexagon()
+#square()
+circle()
